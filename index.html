@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Bitle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* internal css */
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:rgb(0,  0, 13);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+           color: white;
+          
+
+        }
+        nav ul li a:hover{
+          
+          font-size: 1.03rem;
+          transition: 1s;
+
+
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+        .firstSection > div{
+            width: 35%;
+        }
+        .rightSection img{
+    margin: -2px;
+    padding: 2px;
+    margin-top: -1px;
+    margin-left: -70px;
+    width: 75vh;
+        }
+        .leftSection{
+            font-size: 3rem;
+        
+           
+        }
+        .purple{
+            color: rgb(160, 111, 206);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(160, 111, 206);
+        }
+        .section2{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+       main hr{
+        border: 0;
+        background:#9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+       }
+       .section2 h1{
+        font-size: 1.9rem;
+       }
+      
+     
+       .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 40px 0 ;
+       }
+
+       .container .card{
+        position:relative;
+        min-width: 320px;
+        height: 440px;
+        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 2),
+        inset -5px -5px 15px rgba(255, 255, 255,0.1 ),
+        5px 5px 15px rgba(0, 0, 0,0.3 ),
+        -5px -5px 15px rgba(255, 255, 255,0.1 );
+
+        border-radius: 15px;
+        margin: 30px;
+       }
+       .container .card .box{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        background:#2a2b2f;
+        border: 2px solid #1e1f23;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+        border-radius: 10px;
+       }
+
+       .container .card .box:hover{
+        transform:translateY(-50px) ;
+        box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+
+       }
+       .head{
+        font-size: 33px;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        color: rgb(204, 202, 199);
+       }
+       .para{
+        font-size: 23px;
+        font-style: italic;
+        color: rgb(181, 186, 206);
+        margin: 10px;
+        padding: 10px;
+    
+       }
+      
+       .head2{
+        font-size: 24px;
+        text-align: center;
+
+
+    }
+    .content a{
+        font-size: 15px;
+        text-align: center;
+        padding-left: 79px;
+        margin: 10px;
+        color: #a9acb8;
+    }
+    .content a:hover{
+       color: #7874b8;
+       
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Sujal's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+
+                    <li>  <a href="/">Home</a>      </li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Services</a></li>
+                    <li> <a href="/"> Projects</a></li>
+                    <li> <a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+               Hi, My name is <span class="purple">Sujal</span>
+                <div>
+
+                    I am a Passionate
+                </div>
+              
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                 <img src="images/bg.png" class="img" >
+            </div>
+        </section>
+        <section class="section2">
+            <hr>
+            <span class="text-gray">What i have done so far </span>
+            <h1>Work Experience</h1>
+
+            <div class="container">
+                <div class="card">
+                    <div class="box">
+                        <div class="content">
+                            <h2 class="head">Intern</h2>
+                            <h3 class="head2">Asterisc Technocrat</h3>
+                            <p class="para">HTML5, Cascading Style Sheet(CSS), Javascript(JS), VS-Code, Git, GitHub </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>      
+                <div class="card">
+                    <div class="box">
+                        <div class="content">
+                            <h2 class="head">Intern</h2>
+                            <h3 class="head2">Webdroid Edutech</h3>
+                            <p class="para">Core Java, Advance Java, Git, GitHub, Version Control, Team Management, Leadership </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>      
+                <div class="card">
+                    <div class="box">
+                        <div class="content">
+                            <h2 class="head">Intern</h2>
+                            <h3 class="head2">Software Square Academy</h3>
+                            <p class="para"> gained practical knowledge on <b>C & C++</b> programming Language</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'HTML, CSS, JS', 'Content Creator','Learner'],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+</html> 
